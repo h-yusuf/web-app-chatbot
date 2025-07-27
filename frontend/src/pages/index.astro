@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Chat from '../components/Chat';
+---
+
+<Layout title="Chatbot Application">
+  <main class="container mx-auto p-4">
+    <h1 class="text-3xl font-bold text-center my-8">Web Chatbot</h1>
+    <Chat client:load />
+  </main>
+</Layout>
