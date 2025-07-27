@@ -2,6 +2,10 @@
 
 A real-time chat application with a Go backend and Astro frontend that connects to n8n for workflow automation.
 
+## n8n configuration
+
+![n8n configuration](./public/n8n.png)
+
 ## Project Structure
 
 ```
